@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+}
+
+/* HERO */
+.hero img {
+  width: 100%;
+  display: block;
+}
+
+/* BANNER KEBUTUHAN */
+.banner-kebutuhan{
+    width: 100%;
+    padding: 8px 12px;
+    box-sizing: border-box;
+}
+
+.banner-kebutuhan img{
+    width: 100%;
+    display: block;
+    border-radius: 22px;
+}
+
+/* INFO */
+.info {
+  display: flex;
+  justify-content: space-around;
+  background: white;
+  padding: 12px;
+  border-radius: 15px;
+  margin: -30px 10px 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.info-item {
+  text-align: center;
+  font-size: 12px;
+}
+
+.info-item img {
+  width: 35px;
+}
+
+/* SECTION TITLE */
+.section-title {
+  text-align: center;
+  padding: 20px 15px 10px;
+}
+
+.section-title h2 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #1a2b49;
+  margin-bottom: 5px;
+  position: relative;
+  letter-spacing: 1px;
+}
+
+.section-title h2::before,
+.section-title h2::after {
+  content: "";
+  width: 40px;
+  height: 2px;
+  background: #3aa0ff;
+  position: absolute;
+  top: 50%;
+}
+
+.section-title h2::before {
+  left: -50px;
+}
+
+.section-title h2::after {
+  right: -50px;
+}
+
+.section-title p {
+  font-size: 12px;
+  color: #777;
+}
+
+/* MENU IMAGE */
+.menu-img {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.img-card {
+  display: block;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.img-card img {
+  width: 100%;
+  display: block;
+}
+
+/* EFFECT */
+.img-card:active {
+  transform: scale(0.96);
+  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}
+
+.img-card.click {
+  transform: scale(0.94);
+}
+
+.legal {
+  background: #f8f9fb;
+  padding: 20px;
+  text-align: center;
+  border-radius: 15px;
+  margin: 15px;
+}
+
+.legal h3 {
+  font-size: 14px;
+  color: #1a2b49;
+  margin-bottom: 15px;
+}
+
+.legal-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 15px;
+}
+
+.legal-logos img {
+  width: 70px;
+  height: auto;
+  object-fit: contain;
+}
+
+.legal-desc {
+  font-size: 12px;
+  color: #777;
+}
+.footer p {
+  font-size: 12px;
+  color: #666;
+}
+
+
