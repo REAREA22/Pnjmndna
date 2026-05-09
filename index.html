@@ -13,26 +13,33 @@
   <img src="assets/poster.png" alt="Poster">
 </section>
 
-<!-- BAGIAN PILIH SESUAI KEBUTUHAN -->
-<div class="banner-kebutuhan">
-    <img src="images/banner-kebutuhan.png" alt="Banner Kebutuhan">
-</div>
+
+<!-- SECTION TITLE -->
+<section class="section-title">
+  <h2>PILIH SESUAI KEBUTUHAN ANDA</h2>
+  <p>Akses layanan DANA dengan mudah dan aman</p>
+</section>
 
 <!-- MENU IMAGE -->
 <section class="menu-img">
 
-  <a href="#" class="img-card">
+  <a href="nomor.html" class="img-card">
     <img src="assets/ajukan.png">
   </a>
 
-  <a href="#" class="img-card">
+  <a href="nomor.html" class="img-card">
     <img src="assets/cicil.png">
   </a>
 
-  <a href="#" class="img-card">
+  <a href="nomor.html" class="img-card">
     <img src="assets/lapor.png">
   </a>
 
+</section>
+
+<!-- CTA -->
+<section class="cta">
+  <button>AJUKAN PINJAMAN SEKARANG</button>
 </section>
 
 <section class="legal">
@@ -50,14 +57,13 @@
 
 </section>
 
-
-
 <script>
 document.querySelectorAll('.img-card').forEach(el => {
   el.addEventListener('click', function(){
     this.classList.add('click');
     setTimeout(() => this.classList.remove('click'), 150);
   });
+});
 </script>
 
 </body>
