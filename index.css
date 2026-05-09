@@ -10,19 +10,6 @@ body {
   display: block;
 }
 
-/* BANNER KEBUTUHAN */
-.banner-kebutuhan{
-    width: 100%;
-    padding: 8px 12px;
-    box-sizing: border-box;
-}
-
-.banner-kebutuhan img{
-    width: 100%;
-    display: block;
-    border-radius: 22px;
-}
-
 /* INFO */
 .info {
   display: flex;
@@ -113,6 +100,22 @@ body {
   transform: scale(0.94);
 }
 
+/* CTA */
+.cta {
+  padding: 15px;
+}
+
+.cta button {
+  width: 100%;
+  padding: 15px;
+  border-radius: 30px;
+  border: none;
+  background: linear-gradient(135deg, #0d6efd, #3aa0ff);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
 .legal {
   background: #f8f9fb;
   padding: 20px;
@@ -145,9 +148,8 @@ body {
   font-size: 12px;
   color: #777;
 }
+
 .footer p {
   font-size: 12px;
   color: #666;
 }
-
-
